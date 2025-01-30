@@ -1,0 +1,91 @@
+DOXYFILE_ENCODING      = UTF-8
+
+PROJECT_NAME           = "CPP_3DViewer"
+
+PROJECT_NUMBER         =
+
+PROJECT_BRIEF          = Implementation of a calculator in the C++ programming language
+
+PROJECT_LOGO           =
+
+PROJECT_ICON           =
+
+OUTPUT_DIRECTORY       = ../docs
+
+OUTPUT_LANGUAGE        = English
+
+TAB_SIZE               = 4
+
+OPTIMIZE_OUTPUT_FOR_C  = NO
+
+OPTIMIZE_OUTPUT_JAVA   = NO
+
+OPTIMIZE_FOR_FORTRAN   = NO
+
+OPTIMIZE_OUTPUT_VHDL   = NO
+
+GENERATE_TODOLIST      = YES
+
+QUIET                  = NO
+
+WARNINGS               = YES
+
+WARN_IF_UNDOCUMENTED   = YES
+
+WARN_IF_DOC_ERROR      = YES
+
+WARN_IF_INCOMPLETE_DOC = YES
+
+WARN_NO_PARAMDOC       = NO
+
+WARN_IF_UNDOC_ENUM_VAL = NO
+
+WARN_AS_ERROR          = NO
+
+INPUT                  = "./" ./../README.md
+
+INPUT_ENCODING         = UTF-8
+
+FILE_PATTERNS          = *.cc *.cpp *.h
+
+RECURSIVE              = YES
+
+EXCLUDE                = ./tests
+
+EXCLUDE_SYMLINKS       = NO
+
+USE_MDFILE_AS_MAINPAGE = ./../README.md
+
+GENERATE_HTML          = YES
+
+HTML_OUTPUT            = html
+
+HTML_FILE_EXTENSION    = .html
+
+HTML_COLORSTYLE        = AUTO_LIGHT
+
+HTML_COLORSTYLE_HUE    = 120
+
+HTML_COLORSTYLE_SAT    = 255
+
+HTML_COLORSTYLE_GAMMA  = 110
+
+HTML_DYNAMIC_MENUS     = YES
+
+HTML_DYNAMIC_SECTIONS  = NO
+
+DOCSET_FEEDNAME        = "Doxygen generated docs"
+
+GENERATE_TREEVIEW      = YES
+
+ENUM_VALUES_PER_LINE   = 4
+
+TREEVIEW_WIDTH         = 250
+
+GENERATE_MAN           = YES
+
+MAN_OUTPUT             = man
+
+MAN_EXTENSION          = .3
+
+GENERATE_LEGEND        = YES
